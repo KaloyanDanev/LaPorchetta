@@ -102,35 +102,13 @@
 			    padding: 5px;
 			    margin: 10px;
 			    font-size: 32px;
-			    width: 45px;
+			    width: 50px;
 			    text-align: center;
 			    text-decoration: none;
 			    border-radius: 20%;
 				background: rgba(255, 255, 255, 0.1);
 				color: rgba(255, 255, 255, 1);
 				border: solid 2px rgba(255, 255, 255, 0.7);
-			}
-			.footer .fa:hover {
-				text-decoration: none;
-				color: rgba(255, 255, 255, 1);
-				-webkit-transition: 0.5s;
-				-moz-transition: 0.5s;
-			}
-			.fa-facebook:hover {
-				background: rgba(59,89,152,1);
-				border: solid 2px rgba(59,89,152,1);
-			}
-			.fa-pinterest:hover {
-				background: rgba(201,34,40,1);
-				border: solid 2px rgba(201,34,40,1);
-			}
-			.fa-twitter:hover {
-				background: rgba(0, 172, 237,1);
-				border: solid 2px rgba(0, 172, 237,1);
-			}
-			.fa-envelope:hover {
-				background: rgba(112,128,144,1);
-				border: solid 2px rgba(112,128,144,1);
 			}
 
 			.carousel-caption {
