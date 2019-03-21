@@ -8,12 +8,6 @@
 				margin-bottom: 0;
 				min-height: 100vh;
 			}
-			@media screen and (max-width: 645px) {
-				.jumbotron {
-					background-size: auto 100vh;
-					background-attachment: scroll;
-				}
-			}
 			header {
 				background: rgba(255, 255, 255, 0.3);
 				padding-top: 10px;
@@ -21,9 +15,9 @@
 				margin-top: -40px;
 			}
 			header p {
-				font-family: 'Fredericka the Great', cursive;
-				font-size: 48px;
-				padding-top: 20px;
+				font-family: 'Amatic SC', cursive;
+				font-size: 90px;
+
 			}
 	/*nav bar, collapses to drop down menu in smaller browsers*/
 			.nav {
@@ -36,8 +30,8 @@
 				text-decoration: none;
 				font-family: 'Amatic SC', cursive;
 				color: black;
-				font-size: 30px;
-				line-height: 48px;
+				font-size: 40px;
+				line-height: 60px;
 				-webkit-transition: 0.3s ease-in-out;
 				-moz-transition: 0.3s ease-in-out;
 			}
@@ -49,10 +43,6 @@
     			padding: 0 15px 0 15px;
 			}
 			/*adjust max-width to minimum width of nav to prevent overflow*/
-			@media screen and (max-width: 645px) {
-				.nav a {
-			  		display: none;
-			  	}
 			  	.nav {
 			  		padding: 0;
 			  	}
@@ -73,7 +63,7 @@
 					display: block;
 					text-align: left;
 				}
-			}
+
 	/*content section*/
 			.container {				
 				background: rgba(255, 255, 255, 0.6);
@@ -82,16 +72,12 @@
 				margin-top: 20px;
 				border-radius: 5px;
 				padding: 20px 40px 20px 40px;
-				font-family: 'Amatic SC', cursive;
-				font-size: 24px;
+				font-family: 'Fredericka the Great',cursive;
+				font-size: 25px;
 				text-align: left;
 				line-height: 30px;
 			}
-			@media screen and (max-width: 645px) {
-				.container {
-					width: 95%;
-				}
-			}
+
 			.intro {
 				margin-top: 10px;
 				margin-bottom: 40px;
@@ -177,13 +163,4 @@
 			}
 			.form-control {
 				font-size: 20px;
-			}
-			.button {
-				background: rgba(56, 163, 46, 1);
-				border: 0;
-				border-radius: 3px;
-				padding: 3px 6px;
-				font-size: 20px;
-				color: white;
-				margin-left: 30px;
 			}
