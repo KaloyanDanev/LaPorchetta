@@ -63,14 +63,24 @@
 			.container {
 				background: rgba(255, 255, 255, 0.6);
 				width: 80%;
-				margin: 0 auto;
 				margin-top: 20px;
 				border-radius: 5px;
 				padding: 20px 40px 20px 40px;
 				font-family: 'Open Sans', 'italic';
-				font-size: 25px;
+				font-size: 24px;
 				text-align: left;
 				line-height: 30px;
+			}
+
+			.container p {
+				font-size: 24px;
+				margin: 5px;
+				font-family: 'Open Sans', 'italic';
+
+			}
+
+			 .map{
+				width: 450px;
 			}
 
 	/*footer with social media share buttons*/
@@ -122,29 +132,82 @@
 			}
 
 			@media only screen and (max-width: 768px) {
-				.header p {
-					font-size: 2px;
+				.jumbotron p {
+					font-size: 55px;
+				}
+				.container {
+					font-size: 12px;
+				}
+				.container p {
+					font-size: 16px;
+					font-weight: normal;
+					line-height: 1.5;
+					border-width: 0px;
+					border-style: initial;
+					border-color: initial;
+					border-image: initial;
+					margin: 0px;
+					outline: none;
+					padding: 0px;
 				}
 
-				.nav a {
-					font-size: 30px;
+				.map{
+					margin-top: 20px;
+					margin-left: -20px;
+					height: 90px;
+					width: 220px;
 				}
-                   .container {
-					   font-size: 30px;
-				   }
+				.nav a {
+					padding: 10px 2px 5px 2px;
+					text-decoration: none;
+					font-family: 'Amatic SC', cursive;
+					color: black;
+					font-size: 21px;
+					line-height: 30px;
+					-webkit-transition: 0.3s ease-in-out;
+					-moz-transition: 0.3s ease-in-out;
+				}
+
 
 			}
 
 			@media only screen and (max-width: 320px) {
 
-				.header p {
-					font-size: 1px;
-				}
-				.nav a {
-					font-size: 20px;
+				.jumbotron p {
+					font-size: 55px;
 				}
 				.container {
-					font-size: 15px;
+					font-size: 12px;
 				}
+				.container p {
+					font-size: 16px;
+					font-weight: normal;
+					line-height: 1.5;
+					border-width: 0px;
+					border-style: initial;
+					border-color: initial;
+					border-image: initial;
+					margin: 0px;
+					outline: none;
+					padding: 0px;
+				}
+
+                  .map{
+					  margin-top: 20px;
+					  margin-left: -20px;
+					  height: 90px;
+					  width: 220px;
+				  }
+				.nav a {
+					padding: 10px 2px 5px 2px;
+					text-decoration: none;
+					font-family: 'Amatic SC', cursive;
+					color: black;
+					font-size: 21px;
+					line-height: 30px;
+					-webkit-transition: 0.3s ease-in-out;
+					-moz-transition: 0.3s ease-in-out;
+				}
+
 			}
 

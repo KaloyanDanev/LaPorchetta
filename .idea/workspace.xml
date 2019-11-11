@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9d4886a-1ee7-437f-a718-ffefd5cf3409" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/foodpanda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/takeaway.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catering.html" beforeDir="false" afterPath="$PROJECT_DIR$/catering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delivery.html" beforeDir="false" afterPath="$PROJECT_DIR$/delivery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
@@ -121,7 +119,10 @@
       <workItem from="1567436027685" duration="106000" />
       <workItem from="1567442498623" duration="1359000" />
       <workItem from="1567785169844" duration="73000" />
-      <workItem from="1573209465792" duration="3331000" />
+      <workItem from="1573209465792" duration="3948000" />
+      <workItem from="1573295027581" duration="625000" />
+      <workItem from="1573296228120" duration="10000" />
+      <workItem from="1573479262504" duration="5849000" />
     </task>
     <servers />
   </component>
