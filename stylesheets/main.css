@@ -40,26 +40,39 @@
 			}
 			.nav a:hover {
 				background: white;
-			}
-			.nav .icon {
-    			display: none;
-    			padding: 0 15px 0 15px;
-			}
+			}	.nav .icon {
+					 display: none;
+					 padding: 0 15px 0 15px;
+				 }
 			/*adjust max-width to minimum width of nav to prevent overflow*/
-			  	.nav {
-			  		padding: 0;
-			  	}
+			@media screen and (max-width: 720px) {
+				.nav a {
+					display: none;
+				}
+				.nav {
+					padding: 0;
+				}
+				.nav a.icon {
+					float: right;
+					display: block;
+				}
 				.nav.responsive {
 					position: relative;
 				}
-
+				.nav.responsive a.icon {
+					position:absolute;
+					right:0;
+					top:0;
+				}
 				.nav.responsive a {
 					float:none;
 					display: block;
 					text-align: left;
 				}
+			}
 
-	/*content section*/
+
+			/*content section*/
 			.container {
 				background: rgba(255, 255, 255, 0.6);
 				width: 80%;
@@ -131,47 +144,7 @@
 				font-size: 20px;
 			}
 
-			@media only screen and (max-width: 768px) {
-				.jumbotron p {
-					font-size: 55px;
-				}
-				.container {
-					font-size: 12px;
-				}
-				.container p {
-					font-size: 16px;
-					font-weight: normal;
-					line-height: 1.5;
-					border-width: 0px;
-					border-style: initial;
-					border-color: initial;
-					border-image: initial;
-					margin: 0px;
-					outline: none;
-					padding: 0px;
-				}
-
-				.map{
-					margin-top: 20px;
-					margin-left: -20px;
-					height: 90px;
-					width: 220px;
-				}
-				.nav a {
-					padding: 10px 2px 5px 2px;
-					text-decoration: none;
-					font-family: 'Amatic SC', cursive;
-					color: black;
-					font-size: 21px;
-					line-height: 30px;
-					-webkit-transition: 0.3s ease-in-out;
-					-moz-transition: 0.3s ease-in-out;
-				}
-
-
-			}
-
-			@media only screen and (max-width: 320px) {
+			@media only screen and (max-width: 720px) {
 
 				.jumbotron p {
 					font-size: 55px;
@@ -199,14 +172,19 @@
 					  width: 220px;
 				  }
 				.nav a {
-					padding: 10px 2px 5px 2px;
+					padding: 10px 2px 5px 20px;
 					text-decoration: none;
 					font-family: 'Amatic SC', cursive;
 					color: black;
-					font-size: 21px;
-					line-height: 30px;
+					font-size: 28px;
+					line-height: 40px;
 					-webkit-transition: 0.3s ease-in-out;
 					-moz-transition: 0.3s ease-in-out;
+				}
+
+				 img{
+					height: 100px;
+					width: 85px;
 				}
 
 			}
